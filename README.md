@@ -1,4 +1,3 @@
-@@ -1,98 +1,314 @@
 # 🏋️ SportHelper
 
 A modern **Android application** for tracking body measurements and fitness progress.
@@ -16,6 +15,7 @@ Jetpack Compose and following clean architecture principles.
 - **Responsive Layout** - Adaptive design for different screen sizes
 - **Dark Theme Support** - Comfortable viewing in any lighting condition
 - **Progress History** - View your measurement history and track changes over time
+
   [![Kotlin](https://img.shields.io/badge/Kotlin-2.0.0-blue.svg?style=flat&logo=kotlin)](http://kotlinlang.org)
   [![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-2024.09.02-brightgreen)](https://developer.android.com/jetpack/compose)
   [![Firebase](https://img.shields.io/badge/Firebase-34.2.0-orange.svg?style=flat&logo=firebase)](https://firebase.google.com/)
