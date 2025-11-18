@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "207563964162",
+    "project_id": "sporthelper-14103",
+    "storage_bucket": "sporthelper-14103.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207563964162:android:8b44ff5c330021316bcc1b",
+        "android_client_info": {
+          "package_name": "com.example.sporthelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207563964162-kt9ta02knlit2ac6e4b8qlusqquvkvg0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sporthelper",
+            "certificate_hash": "ddbfc6663e5aa7add57e95367a6cbef92f05f18d"
+          }
+        },
+        {
+          "client_id": "207563964162-vqduhum7pu35615iqc1q3j84p5d1dh7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA77SNot3j70L7k-ptN7t5FkrLsjBSiKso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207563964162-vqduhum7pu35615iqc1q3j84p5d1dh7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

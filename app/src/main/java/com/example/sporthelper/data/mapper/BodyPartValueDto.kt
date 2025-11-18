@@ -1,0 +1,44 @@
+package com.example.sporthelper.data.mapper
+
+import com.example.sporthelper.domain.model.BodyPartValue
+import com.google.firebase.Timestamp
+import java.time.Instant
+import java.time.LocalDate
+import java.time.ZoneId
+
+data class BodyPartValueDto(
+    val value: Float = 0f,
+    val date: Timestamp = Timestamp.now(),
+    val bodyPartId: String? = null,
+    val bodyPartValueId: String? = null,
+)
+
+fun BodyPartValueDto.toBodyPartValue(): BodyPartValue {
+    return BodyPartValue(
+        value = value,
+        date = date.toLocalDate(),
+        bodyPartId = bodyPartId,
+        bodyPartValueId = bodyPartValueId
+    )
+}
+
+fun BodyPartValue.toBodyPartValueDto(): BodyPartValueDto {
+    return BodyPartValueDto(
+        value = value,
+        date = date.toTimestamp(),
+        bodyPartId = bodyPartId,
+        bodyPartValueId = bodyPartValueId
+    )
+}
+
+private fun Timestamp.toLocalDate(): LocalDate {
+    return Instant
+        .ofEpochSecond(this.seconds, this.nanoseconds.toLong())
+        .atZone(ZoneId.systemDefault())
+        .toLocalDate()
+}
+
+private fun LocalDate.toTimestamp(): Timestamp {
+    val instant = this.atStartOfDay(ZoneId.systemDefault()).toInstant()
+    return Timestamp(instant.toEpochMilli() / 1000, instant.nano % 1_000_000)
+}
