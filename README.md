@@ -38,10 +38,40 @@ Jetpack Compose and following clean architecture principles.
 ## 📸 Screenshots
 
 <div align="center">
-<!-- Add your screenshots here -->
-<!-- <img src="screenshots/signin.png" alt="Sign In Screen" width="250"/> -->
-<!-- <img src="screenshots/dashboard.png" alt="Dashboard" width="250"/> -->
-<!-- <img src="screenshots/details.png" alt="Measurement Details" width="250"/> -->
+
+### Sign In Screen
+
+<img src="screenshots/signin.png" alt="Sign In Screen" width="300"/>
+
+Sign in with Google or continue as a guest to start tracking your fitness journey.
+
+---
+
+### Dashboard
+
+<img src="screenshots/dashboard.png" alt="Dashboard" width="300"/>
+
+View all your body measurements at a glance. Track multiple metrics like biceps, body fat, calves,
+chest, height, waist, and weight.
+
+---
+
+### Add Measurements
+
+<img src="screenshots/add_item.png" alt="Add New Item" width="300"/>
+
+Easily select which body parts you want to track with a simple toggle interface.
+
+---
+
+### Progress Tracking with Charts
+
+<img src="screenshots/details.png" alt="Details with Chart" width="300"/>
+
+Visualize your progress over time with interactive charts. View your measurement history for the
+last 7 days, 30 days, or all time. Track changes and see your fitness journey unfold with beautiful
+graph visualizations.
+
 </div>
 
 ## 🏗️ Architecture
@@ -334,20 +364,6 @@ For major changes, please open an issue first to discuss what you would like to 
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 🐛 Known Issues
-
-- None at the moment
-
-## 🗺️ Roadmap
-
-- [ ] Charts and graphs for progress visualization
-- [ ] Export data to CSV/PDF
-- [ ] Custom measurement types
-- [ ] Multi-language support
-- [ ] Widget support
-- [ ] Reminders and notifications
-- [ ] Photo progress tracking
-- [ ] Social sharing features
 
 ## 📝 License
 

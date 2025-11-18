@@ -14,11 +14,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "207563964162-kt9ta02knlit2ac6e4b8qlusqquvkvg0.apps.googleusercontent.com",
+          "client_id": "207563964162-gq5fro55386r7c3r3phpq9jl86fc9444.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.sporthelper",
-            "certificate_hash": "ddbfc6663e5aa7add57e95367a6cbef92f05f18d"
+            "certificate_hash": "c2d48f5c00c3196d9ec4b0f7f4032208a9acbd96"
           }
         },
         {
