@@ -17,7 +17,7 @@ A modern **Android application** for tracking body measurements and fitness prog
 
 - **Language**: Kotlin
 - **UI Framework**: Jetpack Compose
-- **Architecture**: MVVM + Clean Architecture
+- **Architecture**: MVI + Clean Architecture
 - **Dependency Injection**: Dagger Hilt
 - **Navigation**: Navigation Compose
 - **Authentication**: Firebase Auth with Google Sign-In
